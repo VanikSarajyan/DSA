@@ -1,4 +1,7 @@
-def max_recursive(arr):
+from numbers import Number
+
+
+def max_recursive(arr: list[Number]) -> Number:
     if len(arr) == 1:
         return arr[0]
 

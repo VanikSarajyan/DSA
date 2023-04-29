@@ -1,4 +1,7 @@
-def binary_search(arr, key, start, end):
+from numbers import Number
+
+
+def binary_search(arr: list[Number], key: Number, start: int, end: int) -> int:
     if end >= start:
         mid = (start + end) // 2
 

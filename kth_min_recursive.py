@@ -1,5 +1,7 @@
-# Basic solution
-def kth_min(arr, k):
+from numbers import Number
+
+
+def kth_min(arr: list[Number], k: int) -> Number:
     if k > len(arr) or k <= 0:
         return None
 
